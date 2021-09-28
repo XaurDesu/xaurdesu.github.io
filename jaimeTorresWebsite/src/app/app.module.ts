@@ -5,10 +5,12 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ExperienceComponent } from './Experience/Experience.component';
 import { ExperienceComponent } from './experience/experience.component';
+import { ExperienceComponent } from './experience/experience.component';
 
 @NgModule({
-  declarations: [		
+  declarations: [			
     AppComponent,
+      ExperienceComponent,
       ExperienceComponent,
       ExperienceComponent
    ],
